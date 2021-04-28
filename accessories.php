@@ -34,9 +34,9 @@ include 'databaseconnect.php';
 <span class="collapse navbar-collapse">
   <span class="container clearfix">
   <ul class="navbar-nav mr-auto mb-2 mb-lg-0 float-right">
-      <li class="nav-item"><a class="nav-link" href="clothing.php">Clothing</a></li>
+      <li class="nav-item"><a class="nav-link" href="women's collection.php">Women's Collection</a></li>
+      <li class="nav-item"><a class="nav-link" href="men's collection.php">Men's Collection</a></li>
       <li class="nav-item"><a class="nav-link" href="accessories.php">Accessories</a></li>
-      <li class="nav-item"><a class="nav-link" href="">Shoes</a></li>
       <li class="nav-item"><a class="nav-link" href="customize.php">Customize</a></li>
     </ul>
    
@@ -95,7 +95,39 @@ include 'databaseconnect.php';
     }
     }
     ?>
+<div class="col-md-4 p-4" style="cursor: pointer;">
+        <a class="card mt-3" href="watches.php" style="color:black;text-decoration: none;">
+          <div class="product-1 align-items-center p-2 text-center">
+            <img src="png/products/ring_Watch.jfif" alt="" class="rounded" width="160">
+            <h6>Titan watch with ring</h6>
+            <div class="info">
+              <span class="text1 d-block">Women Grey Analogue Watch 2651WM01 with silver ring</span>
+            </div>
+            <div class="cost text-dark">
+              <span><b>500/-</b></span>
+              <div class="star align-items-center">
 
+                <?php
+                $rating = 3;
+                for($i=0;$i<$rating;$i++){ ?>
+                <i class="fa fa-star" style="color:orange"></i>
+                <?php
+                } 
+                ?>
+                <?php for($i=0;$i<(5-$rating);$i++){ ?>
+                <i class="fa fa-star"></i>
+                <?php 
+              }
+              ?>
+              </div>
+            </div>
+          </div>
+          <div class="text-center text-white cursor">
+            <button type="button" class="w-100 btn btn-success"><img src="png/shopping-bag.png" style="margin-right: 0.4em;">Add to cart</button></p>
+      
+          </div>
+        </a>
+      </div>
 <!--end-->
 
   </div>

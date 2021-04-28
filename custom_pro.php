@@ -112,10 +112,10 @@
 	<span class="collapse navbar-collapse">
 		<span class="container clearfix">
 		<ul class="navbar-nav mr-auto mb-2 mb-lg-0 float-right">
-	    	<li class="nav-item"><a class="nav-link" href="clothing.php">Clothing</a></li>
-		      <li class="nav-item"><a class="nav-link" href="accessories.php">Accessories</a></li>
-		      <li class="nav-item"><a class="nav-link" href="">Shoes</a></li>
-		      <li class="nav-item"><a class="nav-link" href="customize.php">Customize</a></li>
+	    	<li class="nav-item"><a class="nav-link" href="women's collection.php">Women's Collection</a></li>
+      <li class="nav-item"><a class="nav-link" href="men's collection.php">Men's Collection</a></li>
+      <li class="nav-item"><a class="nav-link" href="accessories.php">Accessories</a></li>
+      <li class="nav-item"><a class="nav-link" href="customize.php">Customize</a></li>
 	    </ul>
 	   
 	</span>
